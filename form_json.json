@@ -1,0 +1,106 @@
+{
+  "form_name": "Form Title",
+  "form":
+  [
+    {
+      "group_name": "Group 1",
+      "group_form": [
+        {
+          "question": "what a question1?",
+          "db_column": "unique short question1",
+          "type": "Single choice",
+          "options": [
+            1,
+            2
+          ],
+          "required": true,
+          "child": [
+            {
+              "question": "what is question2?",
+              "db_column": "unique short question2",
+              "type": "Dropdown",
+              "options": [
+                "100",
+                "200"
+              ],
+              "required": true
+            },
+            {
+              "question": "what is question3?",
+              "db_column": "unique short question3",
+              "type": "Multi choice",
+              "options": [
+                "good",
+                "very good",
+                "bad"
+              ],
+              "required": false
+            }
+          ]
+        },
+        {
+          "question": "what is question4?",
+          "db_column": "unique short question4?",
+          "type": "Dropdown",
+          "options": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "required": false
+        }
+      ]
+    },
+    {
+      "group_name": "group 2",
+      "group_form": [
+        {
+          "question": "what is question5?",
+          "db_column": "unique short question5?",
+          "type": "Single choice",
+          "options": [
+            1,
+            2
+          ],
+          "required": true,
+          "child": [
+            {
+              "question": "what is question6?",
+              "db_column": "unique short question6?",
+              "type": "Dropdown",
+              "options": [
+                "100",
+                "200"
+              ],
+              "required": true
+            },
+            {
+              "question": "what is question7?",
+              "db_column": "unique short question7?",
+              "type": "Single line",
+              "required": false
+            },
+            {
+              "question": "what is question8?",
+              "db_column": "unique short question8?",
+              "type": "Multi line",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_name": "group 3",
+      "group_form": [
+        {
+          "question": "Take Photo",
+          "db_column": "Take Photo unique1?",
+          "type": "Image upload",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
